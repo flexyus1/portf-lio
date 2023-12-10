@@ -1,0 +1,131 @@
+*{
+  font-family: sans-serif;
+  margin: 0;
+}
+
+body{
+  background-color: rgba(48, 52, 53, 0.979);
+}
+
+h1{
+  color: rgb(0, 0, 0);
+}
+
+h2{
+  color: rgb(0, 0, 0);
+}
+
+.navegation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-family: sans-serif;
+  margin-top: 30px;
+  font-weight: 500;
+  
+}
+
+.nav-link{
+  border:1px solid rgba(0, 0, 0, 0.253);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left:20px ;
+  color: rgb(0, 0, 0);
+  box-shadow: 1px 1px;
+}
+
+.btn-social{
+  background-color:transparent;
+  border: transparent;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: 40px;
+  
+}
+
+.principal{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  justify-content: center ;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  justify-content: center ;
+  align-items: center;
+  text-align: center;
+}
+
+.h1Projects{
+  font-size: 45px;
+  color: rgb(0, 0, 0);
+}
+
+
+.cardImage{
+  width: 250px;
+  height: 350px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 15px;
+
+}
+.card{
+  width: 250px;
+  height: 350px;
+  margin: 40px;
+  background-color: rgba(48, 52, 53, 0.979);
+  border: none;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.title{
+  font-size: 45px;
+
+}
+
+.titleT{
+  font-size: 45px;
+  margin-top: 150px;
+}
+
+
+.text{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.icon{
+  margin-top: 50px;
+  height: 125px;
+  width: 125px;
+}
+
+.image{
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.tec{
+  margin-bottom: 30px;
+  font-weight: 600;
+}
