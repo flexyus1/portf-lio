@@ -1,1 +1,1 @@
-Primeira versão do portfólio feit em React
+Primeira Atualização de Portfólio 
