@@ -15,12 +15,16 @@ export default function About() {
     <main className="about">
     <div className="container-about">
     <h1 className="title">Sobre Mim</h1>
-    <p className="text">Olá novamente, Me chamo Leonildo Camilo, tenho 21 anos e conheci a programação através de amigos e jogos,
+
+   <div className="text-init">
+   <p className="text">Olá novamente, Me chamo Leonildo Camilo, tenho 21 anos e conheci a programação através de amigos e jogos,
       sempre fui fascinado para saber como as coisas funcionavam, e com programação eu mesmo posso fazer isso, e isso sempre me motiva
       a continuar estudando e procurando novos conhecimentos e maneiras de fazer as coisas. <br />
       Atualmente tenho o sonho de poder ingressar no mercado de programação, e aqui mostro meus conhecimentos 
       na programação 
     </p>
+   </div>
+
     </div>
     <div className="tecnologies">
       <h1 className="titleT">Conhecimentos</h1>
