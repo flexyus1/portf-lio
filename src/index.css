@@ -178,3 +178,11 @@ span{
   display: block;
   }
  }
+
+ @media (max-width: 446px) {
+  .text-init{
+  width: 37rem;
+  height: 30rem;
+  display: block;
+  }
+ }
