@@ -76,6 +76,7 @@ span{
 .h1Projects{
   font-size: 4.5rem;
   color: rgb(255, 255, 255);
+  margin-bottom: 2rem;
 }
 
 
@@ -152,6 +153,7 @@ span{
 
 .tec{
   margin-bottom: 3rem;
+  margin-top: 2rem;
   font-weight: 500;
   color: #fff;
 }
@@ -159,6 +161,7 @@ span{
 .cardProject{
   display: inline-block;
   margin: 0 15px;
+  
 }
 
 /* text init */

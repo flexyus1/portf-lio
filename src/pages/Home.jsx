@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Github from "../images/iconGithub.svg"
 import Linkedin from "../images/iconLinkedin.svg"
 import Fundo from "../images/fundo.jpg"
+import Galeria from "../images/projectImages/Galeria.png"
 
 export default function Home() {
   return(
@@ -20,15 +21,15 @@ export default function Home() {
         <h1 className="h1Projects">Projetos</h1>
         <div className="projectsCard">
           <div className="cardProject">
-            <button className="card"><a href="">  <img src={Fundo} className="cardImage" alt="" /> </a></button>
+            <a className="card" target="_blank" href="https://gallery-black-phi.vercel.app"> <img src={Galeria} className="cardImage" alt="" /> </a>
+            <p className="tec">Galeria de imagens</p>
+          </div>
+          <div className="cardProject">
+            <a className="card" href="">  <img src={Fundo} className="cardImage" alt="" /> </a>
             <p className="tec">EM BREVE</p>
           </div>
           <div className="cardProject">
-            <button className="card"><a href="">  <img src={Fundo} className="cardImage" alt="" /> </a></button>
-            <p className="tec">EM BREVE</p>
-          </div>
-          <div className="cardProject">
-            <button className="card"><a href="">  <img src={Fundo} className="cardImage" alt="" /> </a></button>
+            <a className="card" href="">  <img src={Fundo} className="cardImage" alt="" /> </a>
             <p className="tec">EM BREVE</p>
           </div>
         </div>
